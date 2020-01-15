@@ -99,6 +99,10 @@ View.prototype.exercise7 = function() {
   //You should push the button for exercise 6 first to try it on the
   //rainbow.
   //your code here!
+  $('#easel').on('mouseenter', '.square', e => {
+    const $sq = $(e.currentTarget);
+    console.log($sq.css('background-color'));
+  });
 };
 
 View.prototype.setupEasel = function() {
