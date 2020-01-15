@@ -46,6 +46,10 @@ View.prototype.exercise3 = function() {
   //Challenge: Add an <h1> with the text 'i love jquery' under the grid.
   //Result: An <h1> with the text 'i love jquery' appears under the grid.
   //your code here!
+  // const $el = $('<h1>Test</h1>');
+  // $('div').append($el);
+  const h1 = $('<h1>').text('I love jQuery');
+  $('#easel').append(h1);
 };
 
 View.prototype.exercise4 = function() {
